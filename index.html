@@ -1,0 +1,220 @@
+<!Doctype html>
+
+<html>
+    <head>
+        <title>My Project</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <section id="nav-bar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="images/demo-logo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#top">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#services">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about-us">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#footer">CONTACT US</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </section>
+
+        <!-- --------------------- banner section ----------------------->
+
+
+        <section id="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="promo-title"> Making Responsive Webpages Using bootstrap </p>
+                        <p> ---------------------------------------------------------------------- </p>
+                        <p>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variable and mixins,
+                         responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
+                        <a href="#"><img src="images/play1.jpg" class="play-btn">Play Videos.</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/home1.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <img src="images/clipped-wave1.png" class="bottom-img">
+        </section>
+
+       <!-- --------------------- services section ----------------------->
+
+       <section id="services">
+           <div class="container text-center">
+               <h1 class="title">What we do ?</h1>
+               <div class="row text-center">
+                   <div class="col-md-4">
+                       <img src="images/services1.png" class="services-img">
+                       <h4>Growth Analytics</h4>
+                       <p class="services">This product will help your company grow exponentally and will help the profit setting records.</p>
+                   </div>
+                   <div class="col-md-4">
+                    <img src="images/services3.png" class="services-img">
+                    <h4>Web Development</h4>
+                    <p class="services">This product will help youbuild responsive webpages using html, css, bootstrap and by also using libraries such as reactjs.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/services5.png" class="services-img">
+                    <h4>Security Management</h4>
+                    <p class="services">This product will insure your company from any cyber attacks and also will provide protection from viruses eveery year.</p>
+                </div>
+                </div>
+                <button id="butt" type="button" class="btn btn-primary">All services</button>
+           </div>
+       </section>
+
+
+       <!-- -----------------------------Anout Us ----------------------------- -->
+
+       <section id="about-us">
+           <div class="container">
+           <h1 class="title text-center">Why choose us ?</h1> 
+           <div class="row">
+               <div class="col-md-6 about-us">
+                   <p class="about-title">Why we're different</p>
+                   <ul>
+                       <li>Understands our clients bussiness goals first.</li>
+                       <li>Believe in doing bussiness with honesty.</li>
+                       <li>We deliver on time.</li>
+                       <li>We create a winning content strategy.</li>
+                       <li>We protect our online reputation.</li>
+                       <li>We are the best out there</li>
+                       <li>We are working on the latest technologies.</li>
+                   </ul>
+               </div>
+               <div class="col-md-6">
+                   <img src="images/business3.jpg" class="img-fluid" id="business-img">
+               </div>
+            </div>
+           </div>
+       </section>
+
+
+       <!-- -----------------------Testimonials -------------------------------- -->
+
+       <section id="testimonials">
+           <div class="container">
+                <h1 class="title text-center">What clients say</h1> 
+           <div class="row">
+               <div class="col-md-4 testimonials">
+                   <p>The services offered by the company were beyond my expectations.</p>
+                    <img src="images/user1.jpg" id="user">
+                    <p class="user-details"><b>Charles Xavier</b><br>Co-founder at X-men pvt ltd.</p>
+                </div>
+                <div class="col-md-4 testimonials">
+                        <p>The services offered by the company were beyond my expectations.</p>
+                         <img src="images/user2.jpg" id="user">
+                         <p class="user-details"><b>Kevin Malone</b><br>Co-founder at X-men pvt ltd.</p>
+                </div>
+                <div class="col-md-4 testimonials">
+                        <p>The services offered by the company were beyond my expectations.</p>
+                         <img src="images/user3.jpg" id="user">
+                         <p class="user-details"><b>Micheal Scott</b><br>Co-founder at X-men pvt ltd.</p>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-md-4 testimonials">
+                        <p>The services offered by the company were beyond my expectations.</p>
+                         <img src="images/user4.jpg" id="user">
+                         <p class="user-details"><b>Oscar Rodriguez</b><br>Co-founder at X-men pvt ltd.</p>
+                     </div>
+                     <div class="col-md-4 testimonials">
+                             <p>The services offered by the company were beyond my expectations.</p>
+                              <img src="images/user5.jpg" id="user">
+                              <p class="user-details"><b>Andy Harper</b><br>Co-founder at X-men pvt ltd.</p>
+                     </div>
+                     <div class="col-md-4 testimonials">
+                             <p>The services offered by the company were beyond my expectations.</p>
+                              <img src="images/user6.png" id="user">
+                              <p class="user-details"><b>Paul Gomes</b><br>Co-founder at X-men pvt ltd.</p>
+                     </div>
+            </div>   
+           </div>
+       </section>
+
+
+       <!-- ---------------------------- Social media section ------------------------- -->
+
+
+       <section id="social-media">
+           <div class="container text-center">
+               <h1 id="sm">FIND US ON SOCIAL MEDIA</h1>
+               <div class="social-icons">
+                   <a href="#"><img src="images/icon9.png"></a>
+                   <a href="#"><img src="images/icon8.png"></a>
+                   <a href="#"><img src="images/icon7.png"></a>
+                   <a href="#"><img src="images/icon6.png"></a>
+                   <a href="#"><img src="images/icon5.png"></a>
+                   <a href="#"><img src="images/icon4.png"></a>
+                   <a href="#"><img src="images/icon3.png"></a>
+               </div>
+           </div>
+       </section>
+
+
+       <!-- ---------------------------- Footer section ------------------------- -->
+
+
+       <section id="footer">
+           <img src="images/wave3.png" class="footer-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-box">
+                    <img src="images/demo-logo.png">
+                    <p>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variable and mixins,
+                    responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery</p>
+                </div>
+                <div class="col-md-4 footer-box">
+                    <p><b>CONTACT US</b></p>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i>World Trade Centre, New Delhi - 110005</p>
+                    <p><i class="fa fa-phone"></i>11 - 25751480</p>
+                    <p><i class="fa fa-envelope-o"></i>xyz@gmail.com</p>
+                </div>
+                <div class="col-md-4 footer-box">
+                        <p><b>SUBSCRIBE NEWSLETTER</b></p>
+                    <input type="email" class="form-control" placeholder="enter your email here">
+                    <button type="button" class="btn btn-primary">Subscribe</button> 
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Website crafted by Harshit Kapoor.</p>
+        </div>
+                
+
+       </section>
+
+       <!-- ---------------------- smooth scroll -------------------------  -->
+
+       <script src="smooth-scroll.js"></script>
+       <script>
+            var scroll = new SmoothScroll('a[href*="#"]');
+       </script>
+
+    </body>
+</html>
